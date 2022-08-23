@@ -19,7 +19,7 @@
 ```
 $ git clone git@github.com:alonwillmakeit/DevOps-Infra.git && cd DevOps-Infra && git checkout S3andDynamo_INIT
 ```
-2. Run 
+3.Run 
 ```
 $ terraform init && terraform apply
 ```
