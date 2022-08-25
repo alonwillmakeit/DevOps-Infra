@@ -26,7 +26,7 @@ $ git clone git@github.com:alonwillmakeit/DevOps-Infra.git && cd DevOps-Infra &&
 ```
 $ terraform init && terraform apply
 ```
-4. Edit main.tf file as instructed in the comments within the file. so the local tfstate file can be worked with again and will recognize our already provisioned resources
+4. Edit main.tf file as instructed in the comments within the file. so the local tfstate file can be worked with again and be able to recognize our already provisioned resources
 
 Then go back to working in the main repository or dev-branch.
 
