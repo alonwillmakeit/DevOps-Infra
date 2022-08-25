@@ -1,3 +1,13 @@
+###### After firstly applying this Terraform file tfstate file will be empty, in-order to continue local development, the local tfstate file needs to be re-initated (terraform init) 
+# and filled with current data,
+# so when provisioning new resources terraform will recognize resources provisioned in this file because "right now" (after first running it - at that point in time) 
+
+# steps to do 
+
+# 1 - Comment out lines 8-15 (include both 8 and 15)
+# 2 - Un-comment lines 18-25 (include both 18 and 25) 
+# 3 - run terraform init. and continue work in main repo.
+
 terraform { 
   required_providers {
     aws = {
@@ -6,6 +16,16 @@ terraform {
     }
   }  
 }
+
+# 
+# terraform { 
+#   required_providers {
+#     aws = {
+#       source = "hashicorp/aws"
+#       version = "~> 3.0"
+#     }
+#   }  
+# }
 
 provider "aws" {
   region = "us-east-1"
