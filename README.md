@@ -2,7 +2,10 @@
 
 
 
-## This repository contains basic S3 and Dynamo DB terraform file first initalization in-order to store the TFstate file remotley within the bucket, after applying it ONCE, leave the branch (git checkout \<branchname>) and head back to work at a normal/dev-branch.
+## This repository contains basic S3 and Dynamo DB terraform file first initalization in-order to store the TFstate file remotley within the bucket. 
+
+
+***after following the steps ONCE. leave the branch (git checkout \<branchname>) and head back to work at a "normal"/dev-branch.***
 
 ### Prerequisites
 
